@@ -1,5 +1,9 @@
 # Graphy - Ultimate FPS Counter - Stats Monitor & Debugger (Unity)
 
+**Links:** [Discord](https://discord.gg/2KgNEHK?) | [Mail](martintayx@gmail.com) | [Twitter](https://twitter.com/tayx94?) | [Asset store](https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-stats-monitor-debugger-105778) | [Forum post](https://forum.unity.com/threads/graphy-ultimate-stats-monitor-debugger-released.517387/) | [Donations](https://www.paypal.me/MartinPaneUK)
+
+**WINNER** of the **BEST DEVELOPMENT ASSET** in the **Unity Awards 2018**.
+
 ![Graphy Image](https://image.ibb.co/dbcDu8/2018_07_15_15_10_05.gif)
 
 Graphy is the ultimate, easy to use, feature packed FPS Counter, stats monitor and debugger for your Unity project.
@@ -28,10 +32,9 @@ The debugger allows you to set one or more conditions, that if met will have the
 - Well documented C# and Shader code included 
 
 **Links:**
-  - [Asset store](https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-stats-monitor-debugger-105778)
-  - [Forum post](https://forum.unity.com/threads/graphy-ultimate-stats-monitor-debugger-released.517387/)
-  
-  - [Video Teaser](https://youtu.be/2X3vXxLANk0)
+- [Asset store](https://assetstore.unity.com/packages/tools/gui/graphy-ultimate-stats-monitor-debugger-105778)
+- [Forum post](https://forum.unity.com/threads/graphy-ultimate-stats-monitor-debugger-released.517387/)
+- [Video Teaser](https://youtu.be/2X3vXxLANk0)
 
 **Contact:**
 - [Mail](martintayx@gmail.com)
@@ -41,6 +44,10 @@ The debugger allows you to set one or more conditions, that if met will have the
 ## Development of Graphy
 
 Maintainer and main developer: **Martín Pane**
+
+Graphy is **FREE** to use, but if it helped you and you want to contribute to its development, feel free to leave a donation! 
+
+- [Donation Link](https://www.paypal.me/MartinPaneUK)
 
 ### Contributing
 
@@ -65,19 +72,22 @@ You can also join the [Discord](https://discord.gg/2KgNEHK?) for active discussi
   - Prewarm framerates: X seconds where min/max fps are not registered to avoid loading spikes registering.
   - Scale Canvas (GetComponent<Canvas>().scaleFactor *= multiplier;) -> If it changes, set again.
   - Make UI layout adapt on the fly to compact it when not showing graphs.
+  - Show the UnityStats (batches, draw calls, etc.) data in the Editor.
     
 **Other features (DEFINITELY MAYBE):** 
 
-  - Network Stats Module
+  - Network Stats Module.
   - Audio Module:
-  	- Average of the whole sound
-	- Indicator for LUFS
+  	- Average of the whole sound.
+	- Indicator for LUFS.
   - Allow storing FPS for a predetermined time to allow benchmarks.
   - Dump all Graphy Data as a string to:
-  	- File
-	- Send to server
-	- Send mail
-  - Add a preprocessor key #GRAPHY to avoid adding the asset in builds
+  	- File.
+	- Send to server.
+	- Send mail.
+  - Add a preprocessor key #GRAPHY to avoid adding the asset in builds.
+  - Click on the graph to change to a minimalised version.
+  - Be able to only show one type of ram in the graph (mostly to be able to see the "mono" ram value spikes with more ease).
   
 ## License
 
